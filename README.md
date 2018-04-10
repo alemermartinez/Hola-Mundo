@@ -8,7 +8,7 @@ Espero que sea más fácil de usar de lo que parece.
 
 Use `git status`to list all new...
 
-```
+```{r}
 library(RBF)
 data(airquality)
 x <- airquality
