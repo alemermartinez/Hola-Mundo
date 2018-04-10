@@ -18,9 +18,6 @@ y <- as.vector(x$Ozone)
 x <- as.matrix(x[, c('Solar.R', 'Wind', 'Temp')])
 ```
 
-<pre><code>This is a code block.
-</code></pre>
-
 <pre><code>
 library(RBF)
 data(airquality)
@@ -31,3 +28,6 @@ y <- as.vector(x$Ozone)
 x <- as.matrix(x[, c('Solar.R', 'Wind', 'Temp')])
 </code></pre>
 
+<code>
+pairs(cbind(y,x), labels=c('Ozone', colnames(x)), pch=19, col='gray30', cex=1.5)
+</code>
